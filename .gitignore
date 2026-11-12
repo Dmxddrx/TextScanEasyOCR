@@ -1,0 +1,85 @@
+
+# ==========================================
+# Python virtual environments
+# ==========================================
+venv/
+.venv/
+env/
+
+# ==========================================
+# Python cache and compiled files
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ==========================================
+# EasyOCR pretrained models
+# ==========================================
+models/easyocr/*
+!models/easyocr/.gitkeep
+
+# ==========================================
+# Captured and processed document images
+# ==========================================
+captures/*
+!captures/.gitkeep
+
+# ==========================================
+# Generated output documents
+# ==========================================
+output/*
+!output/.gitkeep
+
+# ==========================================
+# Temporary files and package cache
+# ==========================================
+temp/
+pip-cache/
+*.tmp
+*.temp
+*.bak
+
+# ==========================================
+# Logs
+# ==========================================
+logs/
+*.log
+
+# ==========================================
+# Local configuration
+# ==========================================
+config.py
+.env
+.env.*
+
+# Keep example configuration
+!config.example.py
+
+# ==========================================
+# IDE settings
+# ==========================================
+.vscode/
+.idea/
+
+# ==========================================
+# Windows generated files
+# ==========================================
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ==========================================
+# Distribution and build files
+# ==========================================
+build/
+dist/
+*.egg-info/
+
+# ==========================================
+# Jupyter Notebook
+# ==========================================
+.ipynb_checkpoints/
